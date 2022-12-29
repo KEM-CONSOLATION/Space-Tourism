@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,20 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* .App{
+  background-size: cover;
+  max-height: 1400px;
+  max-width: 100px;
+} */
+
+
+.BG{
+  background-image: url(./assets/home/BG-home-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100%;
 }
