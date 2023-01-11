@@ -3,7 +3,7 @@ import React from 'react'
 const Titan = () => {
   return (
     <div>
-      <h1 className='tracking-widest text-semibold text-9xl text-white mt-8'>Titan</h1>
+      <h1 className='tracking-widest text-semibold text-9xl text-white mt-8 uppercase'>Titan</h1>
       <p className=' text-white mt-5'> The only moon known to have a dense atmosphere other than Earth, 
       Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views 
       of the Rings of Saturn.</p>

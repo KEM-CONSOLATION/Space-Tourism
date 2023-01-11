@@ -15,7 +15,7 @@ const Home = (props) => {
                 <a className='hover:text-gray-500 px-7' href="/">
                   <div className={`${props.activeNav === 'home' && 'border-b-2'} border-white py-6`}><span className='px-2 font-bold'>00</span>Home</div>
                 </a>
-                <a className='hover:text-gray-500 px-7' href="/Destination">
+                <a className='hover:text-gray-500 px-7' href="/Destination/Moon">
                   <div className={`${props.activeNav === 'Destination' && 'border-b-2'} border-white py-6`}><span className='px-2 font-bold'>01</span>Destination</div>
                 </a>
                 <a className='hover:text-gray-500 px-7' href="/Crew">

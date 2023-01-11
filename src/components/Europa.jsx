@@ -3,7 +3,7 @@ import React from 'react'
 const Europa = () => {
   return (
     <div>
-      <h1 className='tracking-widest text-semibold text-9xl text-white mt-8'>MOON</h1>
+      <h1 className='tracking-widest text-semibold text-9xl text-white mt-8 uppercase'>Europa</h1>
       <p className=' text-white mt-5'> The smallest of the four Galilean moons orbiting Jupiter, 
       Europa is a winter lover’s dream. With an icy surface, 
       it’s perfect for a bit of ice skating, curling, hockey, or 

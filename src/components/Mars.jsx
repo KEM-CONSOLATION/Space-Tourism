@@ -3,7 +3,7 @@ import React from 'react'
 const Mars = () => {
   return (
     <div>
-      <h1 className='tracking-widest text-semibold text-9xl text-white mt-8'>MOON</h1>
+      <h1 className='tracking-widest text-semibold text-9xl text-white mt-8'>MARS</h1>
       <p className=' text-white mt-5'> Don’t forget to pack your hiking boots. 
       You’ll need them to tackle Olympus Mons, the tallest planetary mountain in 
       our solar system. It’s two and a half times the size of Everest!</p>
