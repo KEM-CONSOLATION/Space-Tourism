@@ -1,15 +1,14 @@
 import Layout from './Layout'
+import { Outlet } from 'react-router-dom'
+// import React, { Component } from 'react'
 const Crew = () => {
   return (
     <div>
       <Layout activeNav='Crew'>
-        <div className='flex justify-around items-center pt-32'>
-          <div className='text-white w-96'>
-              
-          </div>
-          <div className='relative bg-white h-80 w-80 rounded-full flex justify-center items-center'>
-              <p className='absolute font-semibold text-4xl '>Explore</p>
-          </div>
+        <div className="max-w-5xl mx-auto grid md:grid-rows sm:grid-rows-1 gap-4">
+          <div className="flex gap-4 text-white text-2xl"><span className='text-gray-500'>02</span><h1 className=' uppercase'>Meet your crew</h1></div>
+          
+          <Outlet />
         </div>
       </Layout>
     </div>

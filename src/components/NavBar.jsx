@@ -18,10 +18,10 @@ const Home = (props) => {
                 <a className='hover:text-gray-500 px-7' href="/Destination/Moon">
                   <div className={`${props.activeNav === 'Destination' && 'border-b-2'} border-white py-6`}><span className='px-2 font-bold'>01</span>Destination</div>
                 </a>
-                <a className='hover:text-gray-500 px-7' href="/Crew">
+                <a className='hover:text-gray-500 px-7' href="/Crew/Douglas">
                   <div className={`${props.activeNav === 'Crew' && 'border-b-2'} border-white py-6`}><span className='px-2 font-bold'>02</span>Crew</div>
                 </a>
-                <a className='hover:text-gray-500 px-7' href="/Technology">
+                <a className='hover:text-gray-500 px-7' href="/Technology/Launch">
                   <div className={`${props.activeNav === 'Technology' && 'border-b-2'} border-white py-6`}><span className='px-2 font-bold'>03</span>Technology</div>
                 </a>
               </div>
