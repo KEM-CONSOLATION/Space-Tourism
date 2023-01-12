@@ -6,12 +6,12 @@ const Home = (props) => {
   return (
     <div>
         <header className=''>
-          <nav className='flex justify-between items-center w-[100%] mx-auto py-10'>
+          <nav className=' md:flex md:justify-between md:items-center mx-auto py-10'>
             <div className=''>
               <img className='w-20' src={Logo} alt="..." srcSet="" />
             </div>
-            <div className='font-sans text-white bg-gray-600/70 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-20'>
-              <div className='flex md:flex-row flex-col md:items-center text-lowerCase'>
+            <div className='font-sans text-white bg-gray-600/70 md:static absolute md:min-h-fit min-h-[10vh] top-0 left-0 justify-end md:w-auto w-auto flex items-center px-20'>
+              <div className=' flex md:flex-row md:items-center text-lowerCase'>
                 <a className='hover:text-gray-500 px-7' href="/">
                   <div className={`${props.activeNav === 'home' && 'border-b-2'} border-white py-6`}><span className='px-2 font-bold'>00</span>Home</div>
                 </a>

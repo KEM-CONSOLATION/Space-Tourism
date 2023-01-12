@@ -43,7 +43,11 @@
   max-height: 1400px;
   max-width: 100px;
 } */
-
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
 
 .BG{
   background-image: url(./assets/home/BG-home-desktop.jpg);
@@ -51,11 +55,12 @@
   background-position: center;
   min-height: 100vh;
   min-width: 100%;
+  background-repeat: no-repeat;
 }
-.BGDestination{
+/* .BGDestination{
   background-image: url(./assets/destination/background-destination-desktop.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   min-width: 100%;
-}
+} */
