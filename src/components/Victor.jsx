@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 const Victor = () => {
   return (
     <div>
@@ -11,18 +11,18 @@ const Victor = () => {
               F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>
 
             <div className="flex gap-4 mt-16 mb-96 md:mb-5">
-                <a href="/Crew/Douglas">
+                <NavLink to="/Crew/Douglas">
                     <div className=' h-5 w-5 rounded-full bg-gray-500'></div>
-                </a>
-                <a href="/Crew/Mark">
+                </NavLink>
+                <NavLink to="/Crew/Mark">
                     <div className=' h-5 w-5 rounded-full bg-gray-500'></div>
-                </a>
-                <a href="/Crew/Victor">
+                </NavLink>
+                <NavLink to="/Crew/Victor">
                     <div className=' h-5 w-5 rounded-full bg-white'></div>
-                </a>
-                <a href="/Crew/Flight">
+                </NavLink>
+                <NavLink to="/Crew/Flight">
                     <div className=' h-5 w-5 rounded-full bg-gray-500'></div>
-                </a>
+                </NavLink>
             </div>
         </div>
 

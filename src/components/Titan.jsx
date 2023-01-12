@@ -4,7 +4,7 @@ const Titan = () => {
   return (
     <div>
       <h1 className='tracking-widest text-semibold text-9xl text-white mt-8 sm:text-center uppercase'>Titan</h1>
-      <p className=' text-white mt-5 sm:text-center md:text-right'> The only moon known to have a dense atmosphere other than Earth, 
+      <p className=' text-white mt-5 sm:text-center md:text-left tracking-widest'> The only moon known to have a dense atmosphere other than Earth, 
       Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views 
       of the Rings of Saturn.</p>
         <hr  className=' mt-9 border-b-1 bg-gray-400'/>

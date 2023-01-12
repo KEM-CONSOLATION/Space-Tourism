@@ -4,7 +4,7 @@ const Europa = () => {
   return (
     <div>
       <h1 className='tracking-widest text-semibold text-9xl text-white mt-8 sm:text-center uppercase'>Europa</h1>
-      <p className=' text-white mt-5 sm:text-center md:text-right'> The smallest of the four Galilean moons orbiting Jupiter, 
+      <p className=' text-white mt-5 sm:text-center md:text-left tracking-widest'> The smallest of the four Galilean moons orbiting Jupiter, 
       Europa is a winter lover’s dream. With an icy surface, 
       it’s perfect for a bit of ice skating, curling, hockey, or 
       simple relaxation in your snug wintery cabin.</p>
@@ -20,7 +20,6 @@ const Europa = () => {
                 <h3 className='text-3xl text-white uppercase'> 3 years</h3>
             </div>
         </div>
-        
     </div>
   )
 }
